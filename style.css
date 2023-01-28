@@ -1,0 +1,125 @@
+nav,
+.navbar-two,
+.footer-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.navbar-element {
+    margin: 10px;
+}
+
+.search-recipes {
+    padding-top: 15px;
+}
+
+#search {
+    font-weight: bold;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    margin: 10px;
+    position: relative;
+}
+ 
+
+@media screen and (min-width: 320px) {
+    .recipe {
+        flex: 0 0 30%;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .recipe {
+        margin: 10px;
+    }
+}
+
+.recipe>img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    line-height: 2px;
+}
+
+.logo_text {
+    font-family: Great Vibes, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.logo {
+    display: flex;
+    flex-direction: flex-start;
+
+}
+
+.container {
+    display: flex;
+    border-bottom: 2px solid lightgrey;
+    border-top: 2px solid lightgrey;
+
+}
+
+p [class="info"] {
+    display: flex;
+    align-items: space-around;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 3);
+    grid-template-columns: repeat(3, 3);
+    gap: 20px;
+
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos > img {
+    width: 20px;
+    margin: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+a[class="info"] {
+    color:white;
+    margin: 15px;
+    a:visited:{
+        color:white;
+        margin: 15px;
+    } 
+}
