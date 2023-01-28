@@ -34,14 +34,14 @@ body {
 }
  
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
     .recipe {
         flex: 0 0 30%;
         margin: 5px;
     }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 680px) {
     .recipe {
         margin: 10px;
     }
